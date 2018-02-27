@@ -13,3 +13,11 @@ for (i = 0; i < names.length; i++) {
 	console.log(emails[i]);
 }
 
+var person = {
+	firstName: "Eduardo",
+	lastName: "Garcia",
+	email: "eagarcia@gmail.com"
+};
+
+console.log(person["firstName"]);
+console.log(person.lastName);
